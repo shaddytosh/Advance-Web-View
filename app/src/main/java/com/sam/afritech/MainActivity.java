@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     AdView adView;
     private InterstitialAd interstitialAd;
     private boolean exit = false;
+    private  String url="https://www.afritechmedia.com/blog/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,13 +101,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_whatsapp) {
-            openWhatsappHelp();
+        if (id == R.id.action_facebook) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/AfritechMedia")));
+
         }
-        if (id == R.id.action_Contact) {
-            String phone = "+254774760300";
-            Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
-            startActivity(intent);
+        if (id == R.id.action_twitter) {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitter.com/AfritechMedia")));
+
         }
         if (id == R.id.refresh) {
             if (isOnline()){
@@ -140,17 +141,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-                if (id == R.id.nav_facebook) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/AfritechMedia")));
-                } else if (id == R.id.nav_twitter) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.twitter.com/AfritechMedia")));
-                } else if (id == R.id.nav_linkedIn) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/company/afritech-media")));
-                } else if (id == R.id.nav_insta) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/AfritechMedia")));
+                if (id == R.id.nav_social_media) {
+                    url="https://www.afritechmedia.com/category/social-media/";
+                    checkConnection();
+                } else if (id == R.id.nav_how_to) {
+                    url="https://www.afritechmedia.com/category/how-to/";
+                    checkConnection();
+                } else if (id == R.id.nav_financial) {
+                    url="https://www.afritechmedia.com/category/financial-tech/";
+                    checkConnection();
+                } else if (id == R.id.nav_gadget) {
+                    url="https://www.afritechmedia.com/category/gadget-review/";
+                    checkConnection();
                 } else if (id == R.id.nav_afritech) {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.afritechmedia.com/")));
-                }
+                    url = "https://www.afritechmedia.com/our-services/";
+                    checkConnection();
+                }else if (id == R.id.nav_home) {
+                        url="https://www.afritechmedia.com/blog/";
+                        checkConnection();}
+
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -195,7 +204,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     private void checkConnection() {
         if (isOnline()){
-            String url = "https://www.afritechmedia.com/blog/";
             webView.loadUrl(url);
             WebSettings webSettings = webView.getSettings();
             webSettings.setJavaScriptEnabled(true);
@@ -232,11 +240,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }});
 
             adView=findViewById(R.id.adView);
+
             AdRequest adRequest= new AdRequest.Builder().build();
             adView.loadAd(adRequest);
 
             interstitialAd=new InterstitialAd(this);
-            interstitialAd.setAdUnitId("ca-app-pub-9511103180749288/6824565328"); //Enter your adunit ID here
+            interstitialAd.setAdUnitId("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9511103180749288"); //Enter your adunit ID here
             interstitialAd.loadAd(new AdRequest.Builder().build());
             interstitialAd.setAdListener(new AdListener() {
                 @Override
@@ -259,6 +268,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void next(){
         if(interstitialAd.isLoaded()) {
             interstitialAd.show();
+
         }else {
             finish();
         }

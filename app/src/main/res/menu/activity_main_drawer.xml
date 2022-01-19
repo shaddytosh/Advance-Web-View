@@ -3,36 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <item
-        android:title="@string/follow_us_on"
-        android:checkable="false"/>
-
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/nav_facebook"
-            android:icon="@drawable/ic_icons8_facebook"
-            android:title="@string/fb" />
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
         <item
-            android:id="@+id/nav_twitter"
-            android:icon="@drawable/twitter"
-            android:title="@string/twitter" />
+            android:id="@+id/nav_how_to"
+            android:title="@string/how_to" />
         <item
-            android:id="@+id/nav_linkedIn"
-            android:icon="@drawable/linked"
-            android:title="@string/linkedin" />
+            android:id="@+id/nav_financial"
+            android:title="@string/financial_tech" />
         <item
-            android:id="@+id/nav_insta"
-            android:icon="@drawable/ic_icons8_instagram"
-            android:title="@string/ig" />
+            android:id="@+id/nav_gadget"
+            android:title="@string/gadget_review" />
+        <item
+            android:id="@+id/nav_social_media"
+            android:title="@string/social_media"/>
+        <item
+            android:id="@+id/nav_afritech"
+            android:title="@string/our_services"/>
     </group>
 
-    <item android:title="@string/recom">
-        <menu>
-            <item
-                android:id="@+id/nav_afritech"
-                android:icon="@drawable/ic_web_svgrepo_com"
-                android:title="@string/afritech_media"/>
-        </menu>
-    </item>
 </menu>
