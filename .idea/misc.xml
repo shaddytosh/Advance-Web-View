@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/drawable/gradient.xml" value="0.19166666666666668" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/drawable/side_nav_bar.xml" value="0.19166666666666668" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/layout/app_bar_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/layout/content_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/layout/nav_header_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Client/afritech-media-blog/app/src/main/res/menu/main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/drawable/baseline_call_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/drawable/baseline_shopping_cart_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/drawable/gradient.xml" value="0.19166666666666668" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/drawable/main_logo.xml" value="0.19166666666666668" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/drawable/side_nav_bar.xml" value="0.19166666666666668" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/layout/app_bar_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/layout/content_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/layout/nav_header_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/menu/activity_main_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Limatech/Apps/gbo-android/app/src/main/res/menu/main.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
