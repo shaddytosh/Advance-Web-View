@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Afritech Media</string>
+    <string name="adUnit">ca-app-pub-9511103180749288/6824565328</string>
+
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="retry">Retry</string>
+    <string name="nav_head">Navigation header</string>
+    <string name="fb">Facebook</string>
+    <string name="youtube">YouTube</string>
+    <string name="ig">Instagram</string>
+    <string name="linkdin">LinkedIn</string>
+    <string name="gplus">Google+</string>
+    <string name="recom">Recommended</string>
+    <string name="emus">Email Us</string>
+    <string name="conus">Contact Us</string>
+    <string name="rfrsh">Refresh</string>
+    <string name="share">share</string>
+    <string name="whatsapp_help_number">+254774760300</string>
+    <string name="please_install_whatsapp">Please install WhatsApp</string>
+    <string name="whatsapp">WhatsApp Us</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="twitter">Twitter</string>
+    <string name="afritech_media">Afritech Media Website</string>
+    <string name="technology_artificial_intelligence_cybersecurity_telco_ict_business"><![CDATA[Technology | Artificial Intelligence | Cyber security |Telco & ICT Business]]></string>
+    <string name="afritech_blog_covers_emerging_trends_in_in_kenya_and_across_africa">Afritech Blog covers emerging trends in:</string>
+    <string name="in_kenya_and_across_africa">in Kenya and across Africa.</string>
+    <string name="follow_us_on">Follow Us:</string>
+</resources>

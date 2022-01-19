@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="@string/follow_us_on"
+        android:checkable="false"/>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_icons8_facebook"
+            android:title="@string/fb" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/twitter"
+            android:title="@string/twitter" />
+        <item
+            android:id="@+id/nav_linkedIn"
+            android:icon="@drawable/linked"
+            android:title="@string/linkedin" />
+        <item
+            android:id="@+id/nav_insta"
+            android:icon="@drawable/ic_icons8_instagram"
+            android:title="@string/ig" />
+    </group>
+
+    <item android:title="@string/recom">
+        <menu>
+            <item
+                android:id="@+id/nav_afritech"
+                android:icon="@drawable/ic_web_svgrepo_com"
+                android:title="@string/afritech_media"/>
+        </menu>
+    </item>
+</menu>
