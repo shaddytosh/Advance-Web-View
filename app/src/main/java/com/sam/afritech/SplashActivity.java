@@ -10,9 +10,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+
 public class SplashActivity extends AppCompatActivity {
     Animation topanim,btmanim;
     ImageView img;
+    ImageView imageGif;
     TextView txt1;
 
     @Override
@@ -28,6 +31,7 @@ public class SplashActivity extends AppCompatActivity {
         //set animation to image and text
         img.setAnimation(topanim);
         txt1.setAnimation(btmanim);
+
 
         int splash_Screen = 2000;
         new Handler().postDelayed(new Runnable() {
