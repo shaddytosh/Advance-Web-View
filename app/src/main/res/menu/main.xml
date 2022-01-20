@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_whatsapp"
+        android:id="@+id/action_facebook"
         android:orderInCategory="200"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_icons8_whatsapp"
-        android:title="@string/whatsapp"/>
+        android:icon="@drawable/ic_icons8_facebook"
+        android:title="@string/facebook"/>
     <item
-        android:id="@+id/action_Contact"
+        android:id="@+id/action_twitter"
         android:orderInCategory="300"
-        android:icon="@drawable/baseline_call_black_24dp"
+        android:icon="@drawable/twitter"
         app:showAsAction="ifRoom"
-        android:title="@string/conus"/>
+        android:title="@string/twitter"/>
     <item
         android:icon="@drawable/refresh"
         app:showAsAction="ifRoom"
